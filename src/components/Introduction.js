@@ -9,11 +9,10 @@ export default class Introduction extends Component {
       <Col xs={12} lg={12}>
         <Row center="xs">
           <Image
-            elevation="medium"
-            fill="horizontal"
             style={{
+              height: "250px",
+              width: "250px",
               borderRadius: "50%",
-              maxWidth: "300px",
             }}
             src={process.env.PUBLIC_URL + "/assets/image-color.jpg"}
           />
