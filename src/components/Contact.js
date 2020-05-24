@@ -1,0 +1,73 @@
+import React, { Component } from "react";
+import { Row, Col } from "react-flexbox-grid";
+import { Text, Anchor } from "grommet";
+import { Twitter, Github, Linkedin, StackOverflow, Mail } from "grommet-icons";
+export default class Contact extends Component {
+  render() {
+    return (
+      <React.Fragment>
+        <Col xs={12} lg={3}>
+          <Row end="lg" center="xs">
+            <Text
+              style={{ width: "100%" }}
+              className="bold-text heading"
+              size="xxlarge"
+            >
+              Reach @
+            </Text>
+          </Row>
+        </Col>
+        <Col xs={12} lg={9}>
+          <Row start="lg" center="md" style={{ alignItems: "center" }}>
+            <Anchor
+              icon={
+                <Twitter
+                  style={{ margin: "1rem" }}
+                  color="plain"
+                  size="large"
+                />
+              }
+              href="https://twitter.com/iYash_Soni"
+            />
+            <Anchor
+              icon={
+                <Github style={{ margin: "1rem" }} color="plain" size="large" />
+              }
+              href="https://github.com/iyashsoni/"
+              target="_blank"
+            />
+            <Anchor
+              icon={
+                <Linkedin
+                  style={{ margin: "1rem" }}
+                  color="plain"
+                  size="large"
+                />
+              }
+              href="https://www.linkedin.com/in/yash-soni-63845aa8/"
+              target="_blank"
+            />
+            <Anchor
+              icon={
+                <StackOverflow
+                  style={{ margin: "1rem" }}
+                  color="plain"
+                  size="large"
+                />
+              }
+              href="https://stackoverflow.com/users/3320207/yash-soni"
+              target="_blank"
+            />
+            <Anchor
+              icon={
+                <Mail style={{ margin: "1rem" }} color="plain" size="large" />
+              }
+              href="mailto: ysoni96@gmail.com"
+              target="_blank"
+            />
+          </Row>
+        </Col>
+      </React.Fragment>
+    );
+  }
+}

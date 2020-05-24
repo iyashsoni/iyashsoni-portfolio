@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #303960;
+  text-align: justify;
+}
+
+.medium-text {
+  font-weight: 400;
+  padding: 1rem;
+}
+
+.light-text {
+  font-weight: 200;
+  padding: 1rem;
+}
+
+.bold-text {
+  font-weight: 700;
+  padding: 1rem;
+}
+
+.heading {
+  color: white;
+  background-color: #ff6363;
+}
