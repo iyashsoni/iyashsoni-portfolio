@@ -18,7 +18,7 @@ export default class Contact extends Component {
           </Row>
         </Col>
         <Col xs={12} lg={9}>
-          <Row start="lg" center="md" style={{ alignItems: "center" }}>
+          <Row start="lg" center="md">
             <Anchor
               icon={
                 <Twitter
@@ -27,6 +27,7 @@ export default class Contact extends Component {
                   size="large"
                 />
               }
+              style={{ padding: "unset" }}
               href="https://twitter.com/iYash_Soni"
             />
             <Anchor
@@ -35,6 +36,7 @@ export default class Contact extends Component {
               }
               href="https://github.com/iyashsoni/"
               target="_blank"
+              style={{ padding: "unset" }}
             />
             <Anchor
               icon={
@@ -46,6 +48,7 @@ export default class Contact extends Component {
               }
               href="https://www.linkedin.com/in/yash-soni-63845aa8/"
               target="_blank"
+              style={{ padding: "unset" }}
             />
             <Anchor
               icon={
@@ -57,6 +60,7 @@ export default class Contact extends Component {
               }
               href="https://stackoverflow.com/users/3320207/yash-soni"
               target="_blank"
+              style={{ padding: "unset" }}
             />
             <Anchor
               icon={
@@ -64,6 +68,7 @@ export default class Contact extends Component {
               }
               href="mailto: ysoni96@gmail.com"
               target="_blank"
+              style={{ padding: "unset" }}
             />
           </Row>
         </Col>
