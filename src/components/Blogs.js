@@ -76,7 +76,7 @@ export default class Blogs extends Component {
       <React.Fragment>
         {this.state.blogs.length > 0 ? (
           <React.Fragment>
-            <Col xs={12} lg={3}>
+            <Col xs={12} lg={3} style={{ padding: "unset" }}>
               <Row end="lg" center="xs">
                 <Text
                   style={{ width: "100%" }}
