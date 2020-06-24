@@ -1,4 +1,4 @@
 # iyashsoni.web.app
 
 Deploy to Firebase:
-`firebase deploy`
+`~/.npm-global/bin/firebase deploy`
