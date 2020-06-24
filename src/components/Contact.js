@@ -27,6 +27,7 @@ export default class Contact extends Component {
                   size="large"
                 />
               }
+              target="_blank"
               style={{ padding: "unset" }}
               href="https://twitter.com/iYash_Soni"
             />
@@ -59,6 +60,20 @@ export default class Contact extends Component {
                 />
               }
               href="https://stackoverflow.com/users/3320207/yash-soni"
+              target="_blank"
+              style={{ padding: "unset" }}
+            />
+            <Anchor
+              icon={
+                <img
+                  src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
+                  alt="Yash Soni's DEV Profile"
+                  height="48"
+                  width="48"
+                  style={{ margin: "1rem" }}
+                />
+              }
+              href="https://dev.to/iyashsoni"
               target="_blank"
               style={{ padding: "unset" }}
             />
