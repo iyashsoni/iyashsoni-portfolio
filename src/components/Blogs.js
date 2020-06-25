@@ -41,7 +41,15 @@ export default class Blogs extends Component {
           return { title, link, pubDate };
         })
     );
-    blogs.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+    blogs.sort((a, b) => {
+      return new Date(b.pubDate.replace(/ /g, "T")) >
+        new Date(a.pubDate.replace(/ /g, "T"))
+        ? 1
+        : new Date(b.pubDate.replace(/ /g, "T")) <
+          new Date(a.pubDate.replace(/ /g, "T"))
+        ? -1
+        : 0;
+    });
     this.setState({ blogs });
   }
 
