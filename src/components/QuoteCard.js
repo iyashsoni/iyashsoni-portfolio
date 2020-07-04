@@ -19,10 +19,17 @@ export default class QuoteCard extends Component {
       .get(quoteUrl)
       .then(({ data }) => {
         const qotd = data.contents.quotes[0];
-        this.setState({ quote: qotd.quote, author: qotd.author });
+        this.setState({ quote: qotd.quote, author: qotd.author }, () => {
+          localStorage.setItem("quote", qotd.quote);
+          localStorage.setItem("author", qotd.author);
+        });
       })
       .catch((err) => {
-        console.log("Failed to fetch Quote.", err);
+        let quote = localStorage.getItem("quote");
+        let author = localStorage.getItem("author");
+        if (quote) {
+          this.setState({ quote, author });
+        }
       });
   }
 

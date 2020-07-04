@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Row, Col } from "react-flexbox-grid";
 import { Image, Text } from "grommet";
 import QuoteCard from "./QuoteCard";
+import Typewriter from "typewriter-effect";
 
 export default class Introduction extends Component {
   render() {
@@ -27,7 +28,13 @@ export default class Introduction extends Component {
         <br />
         <Row center="xs">
           <Text size="xlarge">
-            software engineer, mentor, blogger, thinker.
+            <Typewriter
+              options={{
+                strings: ["software engineer", "mentor", "blogger", "thinker"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
           </Text>
         </Row>
         <Row center="xs">

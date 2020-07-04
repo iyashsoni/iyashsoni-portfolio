@@ -6,8 +6,8 @@ export default class Contact extends Component {
   render() {
     return (
       <React.Fragment>
-        <Col xs={12} lg={3}>
-          <Row end="lg" center="xs">
+        <Col xs={12} md={4}>
+          <Row end="md" center="xs">
             <Text
               style={{ width: "100%" }}
               className="bold-text heading"
@@ -17,8 +17,8 @@ export default class Contact extends Component {
             </Text>
           </Row>
         </Col>
-        <Col xs={12} lg={9}>
-          <Row start="lg" center="md">
+        <Col xs={12} md={8}>
+          <Row start="md" center="xs">
             <Anchor
               icon={
                 <Twitter

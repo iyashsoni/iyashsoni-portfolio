@@ -58,7 +58,8 @@ export default class Blogs extends Component {
       return (
         <Row
           key={index}
-          start="lg"
+          start="md"
+          center="xs"
           style={{
             alignItems: "center",
             marginTop: "1rem",
@@ -84,8 +85,8 @@ export default class Blogs extends Component {
       <React.Fragment>
         {this.state.blogs.length > 0 ? (
           <React.Fragment>
-            <Col xs={12} lg={3} style={{ padding: "unset" }}>
-              <Row end="lg" center="xs">
+            <Col xs={12} md={4} style={{ padding: "unset" }}>
+              <Row end="md" center="xs">
                 <Text
                   style={{ width: "100%" }}
                   className="bold-text heading"
@@ -95,7 +96,7 @@ export default class Blogs extends Component {
                 </Text>
               </Row>
             </Col>
-            <Col xs={12} lg={9}>
+            <Col xs={12} md={8}>
               {this.renderBlogItem()}
             </Col>
           </React.Fragment>

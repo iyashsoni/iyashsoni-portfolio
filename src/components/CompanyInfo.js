@@ -6,8 +6,8 @@ export default class CompanyInfo extends Component {
   render() {
     return (
       <React.Fragment>
-        <Col xs={12} lg={3}>
-          <Row end="lg" center="xs">
+        <Col xs={12} md={4}>
+          <Row end="md" center="xs">
             <Text
               style={{ width: "100%" }}
               className="bold-text heading"
@@ -17,18 +17,18 @@ export default class CompanyInfo extends Component {
             </Text>
           </Row>
         </Col>
-        <Col xs={12} lg={9}>
-          <Row start="lg">
+        <Col xs={12} md={8}>
+          <Row start="md" center="xs">
             <Text className="bold-text" size="xxlarge">
               IBM India Software Labs
             </Text>
           </Row>
-          <Row start="lg">
+          <Row start="md" center="xs">
             <Text className="light-text" size="medium">
               January 2018 - Present
             </Text>
           </Row>
-          <Row start="lg">
+          <Row start="md" center="xs">
             <Text className="medium-text" size="medium">
               I work as a Senior Software Engineer developing and enhancing
               Mobile Services Platform called{" "}
@@ -42,7 +42,7 @@ export default class CompanyInfo extends Component {
               middleware.
             </Text>
           </Row>
-          <Row start="lg">
+          <Row start="md" center="xs">
             <Text className="medium-text" size="medium">
               I have worked on variety of technologies and products - Mobile
               SDKs (android, react-native), Web SDKs (nodejs), Front End
