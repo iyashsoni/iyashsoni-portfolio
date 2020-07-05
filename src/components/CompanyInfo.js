@@ -33,8 +33,8 @@ export default class CompanyInfo extends Component {
               I work as a Senior Software Engineer developing and enhancing
               Mobile Services Platform called{" "}
               <Anchor
+                color="#0099ff"
                 label="MobileFoundation"
-                color="black"
                 href="https://mobilefirstplatform.ibmcloud.com/"
                 target="_blank"
               />

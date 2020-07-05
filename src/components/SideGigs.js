@@ -21,7 +21,7 @@ export default class SideGigs extends Component {
           <Row start="md" center="xs" style={{ alignItems: "center" }}>
             <Text className="bold-text" size="xlarge">
               <Anchor
-                color="black"
+                color="#0099ff"
                 href={"https://minimylist.netlify.app"}
                 target="_blank"
               >
@@ -36,7 +36,7 @@ export default class SideGigs extends Component {
           <Row start="md" center="xs" style={{ alignItems: "center" }}>
             <Text className="bold-text" size="xlarge">
               <Anchor
-                color="black"
+                color="#0099ff"
                 href={
                   "https://play.google.com/store/apps/details?id=com.yashsoni.writer"
                 }
@@ -53,7 +53,7 @@ export default class SideGigs extends Component {
           <Row start="md" center="xs" style={{ alignItems: "center" }}>
             <Text className="bold-text" size="xlarge">
               <Anchor
-                color="black"
+                color="#0099ff"
                 href={"https://www.npmjs.com/package/easy-logging"}
                 target="_blank"
               >
@@ -73,7 +73,7 @@ export default class SideGigs extends Component {
           >
             <Text className="bold-text" size="xlarge">
               <Anchor
-                color="black"
+                color="#0099ff"
                 href={"https://www.npmjs.com/package/easy-web-notifications"}
                 target="_blank"
               >

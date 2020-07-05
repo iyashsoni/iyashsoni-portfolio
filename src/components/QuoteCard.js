@@ -41,7 +41,7 @@ export default class QuoteCard extends Component {
         {this.state.quote !== "" ? (
           <React.Fragment>
             <Text className="medium-text" size="medium">
-              <BlockQuote color="#ff6363" size="large" /> {this.state.quote}
+              <BlockQuote color="#0099ff" size="large" /> {this.state.quote}
             </Text>
             <Text
               className="light-text"

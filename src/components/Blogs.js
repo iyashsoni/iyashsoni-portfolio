@@ -66,11 +66,15 @@ export default class Blogs extends Component {
             marginLeft: "1rem",
           }}
         >
-          <Anchor color="black" href={blog.link} target="_blank">
+          <Anchor href={blog.link} color="#0099ff" target="_blank">
             <Text
               className="medium-text"
               size="large"
-              style={{ padding: "unset" }}
+              style={{
+                padding: "unset",
+                display: "flex",
+                alignItems: "center",
+              }}
             >
               {blog.title}
             </Text>

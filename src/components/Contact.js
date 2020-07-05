@@ -20,13 +20,8 @@ export default class Contact extends Component {
         <Col xs={12} md={8}>
           <Row start="md" center="xs">
             <Anchor
-              icon={
-                <Twitter
-                  style={{ margin: "1rem" }}
-                  color="plain"
-                  size="large"
-                />
-              }
+              color="#0099ff"
+              icon={<Twitter style={{ margin: "1rem" }} size="large" />}
               target="_blank"
               style={{ padding: "unset" }}
               href="https://twitter.com/iYash_Soni"
@@ -73,6 +68,7 @@ export default class Contact extends Component {
                   style={{ margin: "1rem" }}
                 />
               }
+              color="white"
               href="https://dev.to/iyashsoni"
               target="_blank"
               style={{ padding: "unset" }}
