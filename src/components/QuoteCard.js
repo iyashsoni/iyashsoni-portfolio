@@ -11,6 +11,7 @@ export default class QuoteCard extends Component {
     this.state = {
       quote: "",
       author: "",
+      over: false,
     };
   }
 
@@ -41,7 +42,7 @@ export default class QuoteCard extends Component {
         {this.state.quote !== "" ? (
           <React.Fragment>
             <Text className="medium-text" size="medium">
-              <BlockQuote color="#0099ff" size="large" /> {this.state.quote}
+              <BlockQuote color="#0099ff" size="large" /> {this.state.quote}{" "}
             </Text>
             <Text
               className="light-text"
@@ -50,7 +51,33 @@ export default class QuoteCard extends Component {
             >
               {"- "}
               {this.state.author}
-            </Text>{" "}
+            </Text>
+            <span
+              style={{
+                zIndex: "50",
+                fontSize: "0.9em",
+                fontWeight: "bold",
+                marginTop: "1rem",
+              }}
+            >
+              <img
+                src="https://theysaidso.com/branding/theysaidso.png"
+                height="20"
+                width="20"
+                alt="theysaidso.com"
+              />
+              <a
+                href="https://theysaidso.com"
+                title="Powered by quotes from theysaidso.com"
+                style={{
+                  color: "#ccc",
+                  marginLeft: "4px",
+                  verticalAlign: "middle",
+                }}
+              >
+                They Said So®
+              </a>
+            </span>
           </React.Fragment>
         ) : null}
       </div>
