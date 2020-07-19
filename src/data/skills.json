@@ -1,0 +1,17 @@
+[{
+    "name": "Frameworks",
+    "values": ["Android", "Nodejs", "Reactjs", "React Native"]
+  },
+  {
+    "name": "Languages",
+    "values": ["JavaScript", "Java", "Kotlin"]
+  },
+  {
+    "name": "Databases",
+    "values": ["Mongo", "MySQL", "PostgreSQL"]
+  },
+  {
+    "name": "Cloud Services",
+    "values": ["Google Firebase", "IBM Cloud"]
+  }
+]

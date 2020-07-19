@@ -1,0 +1,25 @@
+[{
+    "name": "Markdown Live",
+    "desc": "An online Markdown Editor with Live Preview. Create and download beautiful Markdowns.",
+    "link": "https://markdown-live.netlify.app",
+    "tags": ["react", "javascript", "markdown", "netlify"]
+  },
+  {
+    "name": "minimylist",
+    "desc": "A simple productivity Web Extension. It holds your quick notes and tasks, beutifully!",
+    "link": "https://minimylist.netlify.app",
+    "tags": ["react", "javascript", "web-extension", "chrome", "firefox"]
+  },
+  {
+    "name": "Writer- Scribble your heart out",
+    "desc": "An Android App for creating micro-tales and sharing a high-quality exported Image directly to the other Apps.",
+    "link": "https://play.google.com/store/apps/details?id=com.yashsoni.writer",
+    "tags": ["android", "kotlin"]
+  },
+  {
+    "name": "easy-web-notifications",
+    "desc": "An npm module that will help you save some time in implementing Web Push Notifications in Web Client Applications.",
+    "link": "https://www.npmjs.com/package/easy-web-notifications",
+    "tags": ["javascript", "web-push-notification", "chrome", "firefox"]
+  }
+]
