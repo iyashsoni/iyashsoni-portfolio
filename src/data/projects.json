@@ -6,7 +6,7 @@
   },
   {
     "name": "minimylist",
-    "desc": "A simple productivity Web Extension. It holds your quick notes and tasks, beutifully!",
+    "desc": "A simple productivity Web Extension. It holds your quick notes and tasks, beautifully!",
     "link": "https://minimylist.netlify.app",
     "tags": ["react", "javascript", "web-extension", "chrome", "firefox"]
   },
