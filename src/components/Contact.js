@@ -77,7 +77,7 @@ export default class Contact extends Component {
               icon={
                 <Mail style={{ margin: "1rem" }} color="plain" size="large" />
               }
-              href="mailto: ysoni96@gmail.com"
+              href="mailto: iyashsoni@outlook.com"
               target="_blank"
               style={{ padding: "unset" }}
             />
